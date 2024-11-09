@@ -1,0 +1,17 @@
+.contact {
+  position: relative;
+  width: 100%;
+
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(7, 2, 11, 1) 55%,
+    rgba(14, 5, 23, 1) 100%
+  );
+}
+
+.contact .container-fluid {
+  background: url(../img/contact.jpg) left center no-repeat;
+  background-size: contain;
+}

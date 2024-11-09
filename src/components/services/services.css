@@ -1,0 +1,81 @@
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* #banner{
+  background-image: url('../../assets/15.png');
+  background-position: top;
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.imagen1 {
+  background-image: url("../../assets/pngegg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.imagen2 {
+  background-image: url("../../assets/pngegg1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.wow.zoomIn {
+  animation: zoomIn 1s ease-out;
+}
+
+.wow.fadeInUp {
+  animation: fadeInUp 2s ease-out;
+}
+
+.service-card {
+  margin-top: 5em;
+  border-radius: 10px;
+}
+
+.group-hover\:shadow-xl:hover {
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.096); /* Gris claro */
+}
+
+.group-hover\:scale-105:hover {
+  transform: scale(1.05); /* Escalado al hacer hover */
+}
+#total {
+  padding-top: 10%;
+}
+#service {
+  height: 170vh;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    -48deg,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(7, 2, 11, 1) 75%,
+    rgba(21, 7, 34, 1) 88%
+  );
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-top: 10%;
+}
