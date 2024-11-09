@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import "./portfolio.css";
 import ALK from "../../assets/ALK.jpeg";
 import wearfashion from "../../assets/landingW.jpeg";
-import hHeader from "../../assets/habitaHeader.jpeg";
+import hHeader from "../../assets/habitaheader.jpeg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
