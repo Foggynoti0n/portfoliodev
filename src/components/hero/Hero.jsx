@@ -15,7 +15,7 @@ const Hero = () => {
     // El archivo debe estar en la carpeta public
     const link = document.createElement("a");
     link.href = "/public/ludmila_miranda_ux_ui.pdf"; // Ruta al archivo en la carpeta public
-    link.download = "portfoliodev/public/ludmila_miranda_ux_ui.pdf"; // Nombre con el que se descargará
+    link.download = "/public/ludmila_miranda_ux_ui.pdf"; // Nombre con el que se descargará
     link.click();
   };
 
