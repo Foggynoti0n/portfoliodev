@@ -12,12 +12,14 @@ const Hero = () => {
   }, []);
 
   const handleDownload = () => {
-    // El archivo debe estar en la carpeta public
-    const link = document.createElement("a");
-    link.href = "/public/ludmila_miranda_ux_ui.pdf"; // Ruta al archivo en la carpeta public
-    link.download = "/public/ludmila_miranda_ux_ui.pdf"; // Nombre con el que se descargará
+    // Ruta al archivo en la carpeta public
+    const fileUrl = '/ludmila_miranda_ux_ui.pdf';  // Archivo en public/ludmila_miranda_ux_ui.pdf
+    const link = document.createElement('a');
+    link.href = fileUrl; // Ruta al archivo en public
+    link.download = 'ludmila_miranda_ux_ui.pdf'; // Nombre del archivo que se descargará
     link.click();
   };
+  
 
   return (
     <div
