@@ -13,7 +13,7 @@ import "aos/dist/aos.css";
 const App = () => {
   return (
     <div className="main">
-      <Navbar/>
+      <Navbar />
       <Hero />
       <About />
       <Service />
